@@ -1,0 +1,57 @@
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+*.iml
+dependency-reduced-pom.xml
+release.properties
+rebel.xml
+log/
+logs/
+*.log
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Docker
+**/Dockerfile.swp
+**/docker-compose.yml.swp
+
+# Environment & sensitive files
+.env
+*.env
+
+# Node and Yarn (if you have frontend)
+node_modules/
+yarn-error.log
+npm-debug.log
+
+# Spring Boot
+spring.log
+
+# Local data, uploads, test output
+data/
+uploads/
+*.db
+*.h2.db
+
+# Optional: Exclude test reports
+surefire-reports/
+jacoco.exec
